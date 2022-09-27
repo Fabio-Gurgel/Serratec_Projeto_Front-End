@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+header {
+    color: white;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(156, 40, 40);
+    
+}
+
+#botao-menu{
+    height: 40px;
+    margin-right: 10px;
+    background-color: rgb(187, 158, 97);
+    border: 0px;
+    transition: 0.5s;
+}
+
+#botao-menu:hover{
+    background-color: rgb(255, 217, 136);
+    transition: 0.7s;
+    margin-top: -2px;
+}
+
+.div_header_titulo{
+    font-family: 'Pacifico', cursive;
+}
+
+header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+header ul {
+    list-style: none;
+}
+
+.botaoHomeLink{
+    margin-left: 5px;
+}
+
+.div_header_titulo{
+    display: flex;
+    margin: 0px;
+    font-size: 1.5rem;
+    justify-content: center;
+    transition: 1s;
+}
+.div_header_titulo:hover{
+    color: rgb(255, 217, 136);
+}
+
+
+main{
+    height: 84%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/imagens/background-popcorn.jpg) ;
+    background-size: 90px 90px;
+}
+
+
+#slide{
+    background-color: rgb(187, 158, 97);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px rgb(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+#slide:hover{
+    background-color: rgb(255, 217, 136);
+    margin-top: -5px;
+}
+
+.bd-example {
+    width: 500px;
+    height: 250px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.col {
+    color: white;
+    text-align: center;
+}
+
+footer{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(156, 40, 40);
+    width: 100%;
+    height: 6%;
+}
