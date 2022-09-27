@@ -71,7 +71,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/imagens/background-popcorn.jpg) ;
+    background-image: url(../../imagens/background-popcorn.jpg) ;
     background-size: 90px 90px;
 }
 
