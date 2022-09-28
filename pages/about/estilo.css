@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+header {
+    color: white;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(156, 40, 40);
+    
+}
+
+#botao-menu{
+    height: 40px;
+    margin-right: 10px;
+    background-color: rgb(187, 158, 97);
+    border: 0px;
+    transition: 0.5s;
+}
+
+#botao-menu:hover{
+    background-color: rgb(255, 217, 136);
+    transition: 0.7s;
+    margin-top: -2px;
+}
+
+.div_header_titulo{
+    font-family: 'Pacifico', cursive;
+}
+
+header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+header ul {
+    list-style: none;
+}
+
+.botaoHomeLink{
+    margin-left: 5px;
+}
+
+main{
+    height: 84%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../imagens/background-popcorn.jpg) ;
+    background-size: 90px 90px;
+}
+
+#card {
+    width: 30%;
+    height: 80%;
+    background-color: rgb(187, 158, 97);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#card_logo {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#card_contato {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo_contato li {
+    display: inline;
+    margin: 10px;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.image {
+    border: 1px solid transparent;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.image:hover {
+    border: 1px solid transparent;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgb(156, 40, 40);
+}
+
+.foto {
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    font-size: 1rem;
+}
+
+footer{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(156, 40, 40);
+    width: 100%;
+    height: 6%;
+}
+
