@@ -1,6 +1,5 @@
 
     const API_KEY = "9465eddd"
-    const url = `https://www.omdbapi.com/t=${search}&apikey=${API_KEY}` ;
 
     document.getElementById("submit").onclick = async () => {
         var lista_filmes = document.getElementById("lista_filmes");
