@@ -1,49 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
-.container {
-    height: 60vh;
-    display:flex;
-    flex-direction: column;
+body{
+    width: 100vw;
+    height: 100vh;
+    max-height: auto;
+}
+
+
+header {
+    color: white;
+    height: 10%;
+    width: 100%;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
-    margin: 0 auto;
+    background-color: rgb(156, 40, 40);
+    
+}
+
+#logo_container {
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#botao-menu{
+    height: 40px;
+    margin-right: 10px;
+    background-color: rgb(187, 158, 97);
+    border: 0px;
+    transition: 0.5s;
+}
+
+#botao-menu:hover{
+    background-color: rgb(255, 217, 136);
+    transition: 0.7s;
+    margin-top: -2px;
+}
+
+.div_header_titulo{
+    font-family: 'Pacifico', cursive;
+}
+
+header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+header ul {
+    list-style: none;
+}
+
+.botaoHomeLink{
+    margin-left: 5px;
+}
+
+.div_header_titulo{
+    display: flex;
+    margin: 0px;
+    font-size: 1.5rem;
+    justify-content: center;
+    transition: 1s;
+}
+.div_header_titulo:hover{
+    color: rgb(255, 217, 136);
+}
+
+
+main{
+    height: 84%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../../imagens/background-popcorn.jpg) ;
+    background-size: 90px 90px;
+}
+
+#linha_busca {
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    width: 100%;
+}
+
+#container_busca {
+    transition: 0.5s;
+    height: 90%;
+    width: 16%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-weight: 300;
+    border-radius: 0 0 20px 20px;
+    background-color: rgb(187, 158, 97);
+    box-shadow: 5px 5px 4px rgb(0, 0, 0, 0.5);
+    border-top: none;
 }
 
-.container h3 {
-    font-weight: normal;
-    color: red;
-    text-decoration: underline;
+#container_busca:hover {
+    background-color: rgb(255, 217, 136);
 }
 
-img {
-    border: 2px solid black;
-    border-radius: 20px;
-    opacity: 0.5;
-    transition: 0.25s ease-in-out;
-    width: 200px;
-    height: 250px;
-}
-
-img:hover {
-    opacity: 1;
-}
-
-button {
+#container_busca > button {
+    margin-top: 0.3rem;
     cursor: pointer;
     transition: 0.25s ease-in-out;
-    width: 300px;
-    height: 50px;
-    font-size: 20px;
     color: white;
-    background-color: black;
+    font-weight: bold;
+    background-color: rgb(156, 40, 40);
+    border: none;
+    padding: 0.5rem;
+    border-radius: 10px;
     outline: none;
+    box-shadow: 5px 5px 4px rgb(0, 0, 0, 0.5);
 }
 
-button:hover {
-    background: purple;
+#container_busca > button:hover {
+    background-color: rgb(88, 30, 30);
+    transform: translateY(1px);
+    box-shadow: none;
+}
+
+#container_busca > input, textarea {
+    background-color: rgb(53, 52, 56);
+    color: #fff;
+    text-align: center;
+}
+
+footer{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(156, 40, 40);
+    width: 100%;
+    height: 6%;
 }
