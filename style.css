@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+:root{
+    --font-titulo:2.2rem;
+    --font-paragrafo:1.2rem;
 }
 
 body {
@@ -13,6 +21,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
 main {
     margin-top: 0;
     display: flex;
@@ -22,11 +31,11 @@ main {
 
 /*HEADER*/
 header {
+    color: white;
     width: 100%;
     height: 10%;
     display: flex;
     justify-content: space-between;
-    font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     background-color: rgb(156, 40, 40);
 }
@@ -34,6 +43,83 @@ header {
 header a {
     color: white;
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .div_help {
+
+        width: 100%;
+        height: 100vw;
+        flex-direction: column;
+    }
+
+    .div_help_input {
+        margin-bottom: 50px;
+
+    }
+}
+
+@media (max-width: 412px) {
+    header {
+        height: 20%;
+        flex-direction: column;
+    }
+
+    main {
+        width: 100%;
+        font-size: 10px;
+        flex-direction: column;
+        align-items:center;
+    }
+
+    #div_help_ul {
+        height: 60%;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .div_help_input {
+        height: 50%;
+        width: 120%;
+        margin-bottom: 30px;
+    }
+    footer{
+    font-size: 14px;
+    }
+}
+
+#botao-menu {
+    height: 40px;
+    margin-right: 10px;
+    background-color: rgb(187, 158, 97);
+    border-radius: 10px;
+    transition: 0.5s;
+    border: none;
+}
+
+#botao-menu:hover {
+    background-color: rgb(255, 217, 136);
+    transition: 0.7s;
+    margin-top: -2px;
+}
+
+.div_header_titulo {
+    font-family: 'Pacifico', cursive;
+}
+
+.div_header_titulo {
+    display: flex;
+    margin: 0px;
+    font-size: 1.5rem;
+    justify-content: center;
+    transition: 1s;
+}
+
+.div_header_titulo:hover {
+    color: rgb(255, 217, 136);
 }
 
 nav,
@@ -70,13 +156,13 @@ a:hover {
 
 .div_help {
     margin: 1%;
-    padding: 0px;
+    padding-bottom: 5px;
     display: flex;
     width: 70%;
     height: 90%;
     justify-content: center;
     border-radius: 10px;
-    background-color: rgba(217, 217, 217,0.7);
+    background-color: rgba(217, 217, 217, 0.7);
 
 }
 
@@ -84,24 +170,25 @@ a:hover {
     padding-right: 50px;
     display: block;
     align-items: center;
-    flex-basis: 35%
+    flex-basis: 40%
 }
 
 div h2 {
     margin-top: 10%;
-    font-size: 35px;
+    font-size: var(--font-titulo);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 div p {
     margin-top: 5px;
-    font-size: 18px;
+    font-size: var(--font-paragrafo);
     font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
     text-align: justify;
 }
+
 div input {
-    height: 25px;
+    height: 30px;
     width: 140%;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
@@ -143,6 +230,8 @@ div textarea {
 
 #input_botao_enviar:hover:focus {
     background: aliceblue;
+    transition: 0.7s;
+    margin-top: -2px;
 }
 
 div input[type=submit] {
