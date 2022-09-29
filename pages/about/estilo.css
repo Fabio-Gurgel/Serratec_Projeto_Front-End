@@ -168,16 +168,19 @@ footer{
 
 }
 
-@media (max-width: 654px) {
+@media (max-width: 660px) {
 
     header {
-        height: 10%;
+        height: 20%;
         width: 100%;
-        display: flex;
+        flex-direction: column;
         justify-content: space-between;
     }
     .div_header_titulo {
         min-width: 500px;
+    }
+    #bv_container {
+        max-height: 15px;
     }
     body{
         width: 100vw;
@@ -196,11 +199,12 @@ footer{
 
 }
 
-@media (max-width: 464px) {
+@media (max-width: 515px) {
     body{
         width: 100vw;
         height: 100vh;
     }
+
 
     header {
         color: white;
@@ -215,6 +219,10 @@ footer{
     }
     #logo_container{
         width: 50%;
+    }
+    #bv_container {
+        min-width: 150px;
+        margin-left: -85px;
     }
 
     #botao-menu {
