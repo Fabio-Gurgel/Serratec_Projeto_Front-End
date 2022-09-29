@@ -14,11 +14,8 @@
 
         let response = await fetch("https://www.omdbapi.com/?s=" + search + "&apikey="+ API_KEY);
         let filmes = await response.json();
-        // document.getElementById("image").src = filmes.Search[0].Poster
-        // var filme = document.createElement("img")
-        // filme.src = filmes.Search[0].Poster
+
         lista_filmes.innerHTML = "";
-        // <img src='${filme.Poster}' alt='poster'>
 
         for (let i = 0; i < filmes.Search.length && i < 8; i++) {
 
@@ -37,19 +34,4 @@
             
         }
 
-        // filmes.Search.forEach((filme) => {
-        //     console.log(JSON.stringify(filme.Plot));
-        //     console.log(filme.Poster);
-
-        //     lista_filmes.innerHTML += `
-        //     <div class='filme_container'>
-        //         <h3><span>Título:</span> ${filme.Title}</h3>
-        //         <p><span>Enredo:</span> "${filme.Plot}"</p>
-        //     </div>
-        //     `;
-
-        //     document.getElementById("filme_container").style.backgroundImage = `url('${filme.Poster}')`;
-
-        // });
-        // lista_filmes.appendChild(filme)
     }
