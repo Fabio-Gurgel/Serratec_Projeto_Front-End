@@ -6,22 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <div id="card">
-        <img id="image" src="../../imagens/background-pipoca.png" alt="">
+    <div id="card_container">
+        <div id="card">
+            <img id="image" src="../../imagens/background-pipoca.png" alt="">
 
 
-        <div id="content">
-            <label for="Titulo">Cine 4 Ever</label>
-            <input type="text" id="username" placeholder="Digite seu nome de usuário">
+            <div id="content">
+                <label for="Titulo">Cine 4 Ever</label>
+                <input type="text" id="username" placeholder="Digite seu nome de usuário">
+            </div>
+
+            <button id="submit">ENTRAR</button>
         </div>
-
-        <button id="submit">ENTRAR</button>
     </div>
 
+    <div id="liveAlert"></div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
 </body>
 

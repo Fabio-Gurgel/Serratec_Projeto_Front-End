@@ -21,6 +21,12 @@ header {
     background-color: rgb(156, 40, 40);
     
 }
+#logo_container {
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: space-between;
+}
 
 #botao-menu{
     height: 40px;
@@ -65,7 +71,7 @@ header ul {
 
 
 main{
-    height: 84%;
+    height: 87vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -101,6 +107,7 @@ main{
 }
 
 footer{
+    position: absolute;
     color: white;
     display: flex;
     align-items: center;
@@ -108,4 +115,21 @@ footer{
     background-color: rgb(156, 40, 40);
     width: 100%;
     height: 6%;
+}
+#bv_container {
+    display: flex;
+    justify-content: right;
+    width: 18%;
+}
+
+#bem_vindo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    min-width: fit-content;
+}
+
+#bem_vindo span{
+    color: rgb(255, 217, 136);
 }

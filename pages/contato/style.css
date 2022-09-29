@@ -1,18 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+:root {
+    --font-titulo: 2.2rem;
+    --font-paragrafo: 1.2rem;
 }
 
 body {
     width: 100vw;
     height: 100vh;
     background-color: rgb(236, 236, 236);
-    background-image: url(../../imagens/background-popcorn.jpg);
+    background-image: url(/imagens/background-popcorn.jpg);
     background-size: 90px, 90px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 main {
     margin-top: 0;
     display: flex;
@@ -22,11 +31,11 @@ main {
 
 /*HEADER*/
 header {
+    color: white;
     width: 100%;
     height: 10%;
     display: flex;
     justify-content: space-between;
-    font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     background-color: rgb(156, 40, 40);
 }
@@ -34,6 +43,211 @@ header {
 header a {
     color: white;
     text-decoration: none;
+}
+
+#logo_container {
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+    header {
+        width: 100%;
+        height: 7%;
+      
+    }
+
+    header nav {
+        margin-right: 50px;
+    }
+
+    #logo_container {
+        width: 25%;
+    }
+    .div_help {
+
+        width: 100%;
+        height: 100vw;
+        flex-direction: column;
+    }
+
+    .div_help_input {
+        margin-bottom: 50px;
+
+    }
+}
+
+
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: baseline;
+    }
+   
+    #logo_container {
+        max-width: 200px;
+    }
+  
+    #botao-menu{
+        font-size: 14px;
+    }
+    
+    .nav {
+        margin-right: 3px;
+    }
+    .div_help {
+
+        width: 100%;
+        height: 100vw;
+        flex-direction: column;
+    }
+
+    .div_help_input {
+        margin-bottom: 50px;
+
+    }
+}
+
+@media (max-width: 580px) {
+    header {
+        width: 100%;
+        height: 20%;
+        flex-direction: column;
+    }
+
+    #bv_container{
+    min-width: 150px;
+    }
+
+    .div_header_titulo{
+        min-width: 50px;
+    }
+    #logo_container {
+        width: 50%;
+    }
+
+    main {
+        width: 100%;
+        font-size: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #div_help_ul {
+        height: 60%;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .div_help_input {
+        height: 50%;
+        width: 120%;
+        margin-bottom: 30px;
+    }
+
+    footer {
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 330px) {
+    header {
+        width: 100%;
+        height: 160px;
+        flex-direction: column;
+    }
+
+    #logo_container {
+        width: 70%;
+    }
+
+    #botao-menu {
+        width: 21%;
+        font-size: 12px;
+       
+    }
+
+    nav {
+        justify-content: center;
+    }
+
+    main {
+        width: 100%;
+        font-size: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #div_help_ul {
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    #div_help_li_h2{
+        height: 10px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    #div_help_li_p{
+        font-size: 14px;
+        margin-bottom: 0;
+        text-align: justify;
+        line-height: 22px;
+    }
+
+
+
+    footer {
+        font-size: 11px;
+        display: flex;
+        text-align: left;
+        width: 100%;
+    }
+}
+
+#botao-menu {
+    height: 40px;
+    margin-right: 10px;
+    background-color: rgb(187, 158, 97);
+    border-radius: 10px;
+    transition: 0.5s;
+    border: none;
+}
+
+#botao-menu:hover {
+    background-color: rgb(255, 217, 136);
+    transition: 0.7s;
+    margin-top: -2px;
+}
+
+.div_header_titulo {
+    font-family: 'Pacifico', cursive;
+}
+
+.div_header_titulo {
+    display: flex;
+    margin: 0px;
+    font-size: 1.5rem;
+    justify-content: center;
+    transition: 1s;
+}
+
+.div_header_titulo:hover {
+    color: rgb(255, 217, 136);
 }
 
 nav,
@@ -66,17 +280,17 @@ a:hover {
     align-items: center;
 }
 
-/*SEETION FORMS*/
+/*SECTION FORMS*/
 
 .div_help {
     margin: 1%;
-    padding: 0px;
+    padding-bottom: 5px;
     display: flex;
     width: 70%;
     height: 90%;
     justify-content: center;
     border-radius: 10px;
-    background-color: rgba(217, 217, 217,0.7);
+    background-color: rgb(187, 158, 97, .7);
 
 }
 
@@ -84,24 +298,25 @@ a:hover {
     padding-right: 50px;
     display: block;
     align-items: center;
-    flex-basis: 35%
+    flex-basis: 40%
 }
 
 div h2 {
     margin-top: 10%;
-    font-size: 35px;
+    font-size: var(--font-titulo);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 div p {
     margin-top: 5px;
-    font-size: 18px;
+    font-size: var(--font-paragrafo);
     font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
     text-align: justify;
 }
+
 div input {
-    height: 25px;
+    height: 30px;
     width: 140%;
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
@@ -143,12 +358,14 @@ div textarea {
 
 #input_botao_enviar:hover:focus {
     background: aliceblue;
+    transition: 0.7s;
+    margin-top: -2px;
 }
 
 div input[type=submit] {
     margin-top: 5px;
     color: white;
-    background-color: rgb(49, 124, 245);
+    background-color: rgb(156, 40, 40);
     border-radius: 5px;
     width: 70px;
     height: 35px;
@@ -166,4 +383,22 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: rgb(156, 40, 40);
+}
+
+#bv_container {
+    display: flex;
+    justify-content: right;
+    width: 18%;
+}
+
+#bem_vindo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    min-width: fit-content;
+}
+
+#bem_vindo span{
+    color: rgb(255, 217, 136);
 }
