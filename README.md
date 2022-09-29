@@ -4,9 +4,10 @@
 <img src="https://img.shields.io/badge/Última_Modificação:-29_de_Setembro-red"/>
 <br><br>
 
-<h4> Um simples Site feito com HTML, CSS e JavaScript.</h4>
+<h4> Um simples site feito com HTML, CSS e JavaScript.</h4>
 
-<p>De acordo com as exigencias do trabalho, os grupos da turma deveriam criar um site com o tema de sua preferencia, utilizando o HTML, CSS e JavaScript, além de também fazer o consumo de uma API. O Site deveria ter (no minimo) 3 páginas, ser estilizado e minimamente recursivo.</p>
+<p>De acordo com as exigências do trabalho, os grupos da turma deveriam criar um site com o tema de sua preferência, utilizando o HTML, CSS e JavaScript, além de também fazer o consumo de uma API. O site deveria ter (no mínimo) 3 páginas, ser estilizado e minimamente recursivo.</p>
+<p>Nosso grupo optou pela criação de um site sobre filmes, que consiste em levar ao usuário: Poster, nome completo e sinopse do filme solicitado.</p>
 
 <br>
 
@@ -31,47 +32,30 @@
 <br>
 
 <h2>Imagens do Site:<h2>
-
-<div align="center">
-<img src="" width="200px">
- </div>
-
-
-## Professor responsável:
-| [<img src="https://avatars.githubusercontent.com/u/102525341?v=4" width=115><br><sub>Professor Roni</sub>](https://github.com/roni-inf) |
- | :---: |
- 
 <br>
 
-## Equipe do trabalho
-### Grupo 6 | Turma 8 - Teresópolis:
+<div align="center">
+<img src="/imagens/Screenshot_1.png" width="500px" height="250">
 
-| [<img src="https://avatars.githubusercontent.com/u/103470533?v=4" width=115><br><sub>Ricardo Andrade</sub>](https://github.com/ric-cfan) |  [<img src="https://avatars.githubusercontent.com/u/110869594?v=4" width=115><br><sub>Lucas Cardoso</sub>](https://github.com/LucasCardosoEx) |  [<img src="https://avatars.githubusercontent.com/u/110869558?v=4" width=115><br><sub>Thamires Ouverney</sub>](https://github.com/ThamiresOD) |  [<img src="https://avatars.githubusercontent.com/u/110869785?v=4" width=115><br><sub>Cleiver Soares</sub>](https://github.com/CleiverSoares) |  [<img src="https://avatars.githubusercontent.com/u/110734237?v=4" width=115><br><sub>Fábio Gurgel</sub>](https://github.com/Fabio-Gurgel) | 
-| :---: | :---: | :---: | :---: | :---: |
+<img src="/imagens/Screenshot_4.png" width="500px" height="250">
+
+<img src="/imagens/Screenshot_3.png" width="500px" height="250">
+
+<img src="/imagens/Screenshot_2.png" width="500px" height="250">
+ </div>
 
 <br><br>
 
-Ricardo Andrade:
-https://www.linkedin.com/in/ricardo-andrade-1a242a240/
 
+## Professor responsável:
+| [<img src="https://avatars.githubusercontent.com/u/61471521?v=4" width=115><br><sub>Vinicius Schiffler</sub>](https://github.com/viniciusrschiffler) |
+ | :---: |
+
+ 
 <br>
 
-Fábio Gurgel:
-https://www.linkedin.com/in/f%C3%A1bio-gurgel-6b6b17240
+## Equipe do trabalho:
+### Grupo 4 | Turma 8 - Teresópolis
 
-<br>
-
-Thamires Darci:
-https://www.linkedin.com/in/thamires-darci-377637242
-
-<br>
-
-Lucas Cardoso:
-https://www.linkedin.com/in/lucascardosoex/
-
-<br>
-
-Cleiver Soares:
-https://www.linkedin.com/in/cleiver-soares-b81526169
-
-<br>
+| [<img src="https://avatars.githubusercontent.com/u/103470533?v=4" width=115><br><sub>Ricardo Andrade</sub>](https://github.com/ric-cfan) |  [<img src="https://avatars.githubusercontent.com/u/102622495?v=4" width=115><br><sub>Erick Ramos</sub>](https://github.com/ErickNotFound) |  [<img src="https://avatars.githubusercontent.com/u/110869568?v=4" width=115><br><sub>Luís Pedro Chaves</sub>](https://github.com/lpedrochaves) |  [<img src="https://avatars.githubusercontent.com/u/85204109?v=4" width=115><br><sub>Anderson Lopes</sub>](https://github.com/andersonlps) |  [<img src="https://avatars.githubusercontent.com/u/110734237?v=4" width=115><br><sub>Fábio Gurgel</sub>](https://github.com/Fabio-Gurgel) | 
+| :---: | :---: | :---: | :---: | :---: |
