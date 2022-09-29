@@ -25,7 +25,3 @@ document.getElementById("submit").onclick = async () => {
         alert('Usuário inválido!', 'danger')
     }
 }
-
-
-// () => {} -- Arrow function / função anônima
-// function () {} -- função anônima
