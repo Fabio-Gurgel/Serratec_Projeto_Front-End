@@ -22,6 +22,13 @@ header {
     
 }
 
+#logo_container {
+    display: flex;
+    width: 15%;
+    align-items: center;
+    justify-content: space-between;
+}
+
 #botao-menu{
     height: 40px;
     margin-right: 10px;
@@ -38,6 +45,11 @@ header {
 
 .div_header_titulo{
     font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+.div_header_titulo:hover{
+    color: rgb(187, 158, 97);
 }
 
 header a{
@@ -137,3 +149,149 @@ footer{
     height: 6%;
 }
 
+@media (max-width: 1188px) {
+  
+    .div_header_titulo{
+       min-width: 500px;
+    }
+    #card {
+        width: 50%;
+        height: 80%;
+        background-color: rgb(187, 158, 97);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+}
+
+@media (max-width: 654px) {
+
+    header {
+        height: 10%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .div_header_titulo {
+        min-width: 500px;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+    #card {
+        width: 60%;
+        height: 70%;
+        background-color: rgb(187, 158, 97);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-width: 464px) {
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    header {
+        color: white;
+        height: 25%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(156, 40, 40);
+
+    }
+    #logo_container{
+        width: 50%;
+    }
+
+    #botao-menu {
+        height: 40px;
+        margin-right: 10px;
+        background-color: rgb(187, 158, 97);
+        border: 0px;
+        transition: 0.5s;
+    }
+
+    main {
+        height: 69%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(../../imagens/background-popcorn.jpg);
+        background-size: 90px 90px;
+    }
+
+    #card {
+        width: 75%;
+        height: 85%;
+        background-color: rgb(187, 158, 97);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    .foto {
+        width: 40px;
+        border-radius: 100%;
+        margin-right: 15px;
+        margin-bottom: 5px;
+    }
+
+    footer {
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(156, 40, 40);
+        width: 100%;
+        height: 6%;
+    }
+
+    footer>p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-height: 654px) {
+    .foto {
+        width: 40px;
+        border-radius: 100%;
+        margin-right: 15px;
+        margin-bottom: 5px;
+    }
+
+}
+#bv_container {
+    display: flex;
+    justify-content: right;
+    width: 18%;
+}
+
+#bem_vindo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    min-width: fit-content;
+}
+
+#bem_vindo span{
+    color: rgb(255, 217, 136);
+}

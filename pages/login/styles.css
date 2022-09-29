@@ -12,15 +12,28 @@ body {
     height: 100vh;
 
     display: flex;
+    flex-direction: column;
+}
+
+#liveAlert {
+    text-align: center;
+}
+
+#card_container {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #card {
+
     transition: 0.5s;
     background: rgb(156, 40, 40);
-    width: 20rem;
-    height: 20rem;
+    width: 22rem;
+    height: 22rem;
     border-radius: 20px;
     border: rgb(187, 158, 97) 0.5rem solid;
 
@@ -45,6 +58,8 @@ body {
 #content {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     width: 80%;
 }
 
@@ -60,17 +75,18 @@ body {
     width: 90%;
     height: 20px;
     border-radius: 15px;
-    padding: 10px;
+    padding: 20px;
     border: none;
     outline: none;
     margin-top: 5px;
     font-weight: 500;
     background-color: #171518;
     text-align: center;
+    color: #fff;
 }
 
 #card > button {
-    width: 80%;
+    width: 70%;
     height: 35px;
     border-radius: 20px;
     border: none;
@@ -85,10 +101,13 @@ body {
     text-decoration: none;
 
     font-size: 15px;
+    box-shadow: 5px 5px 4px rgb(0, 0, 0, 0.5);
 }
 
 
 #card > button:hover {
+    transition: 0.5s;
     background-color: rgb(255, 217, 136);
     transform: translateY(1px);
+    box-shadow: none;
 }

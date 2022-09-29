@@ -1,12 +1,29 @@
 document.getElementById("submit").onclick = async () => {
     var username = document.getElementById("username").value;
 
-    var response = await fetch('https://api.github.com/users/'+ username);
-    var user = await response.json()
+    localStorage.setItem("user", username)
 
-    localStorage.setItem("user", JSON.stringify(user))
+    const liveAlert = document.getElementById('liveAlert')
+
+    const alert = (message, type) => {
+        const wrapper = document.createElement('div')
+        wrapper.innerHTML = [
+            `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+            `   <div><p>>${message}</p></div>`,
+            '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+            '</div>'
+            ].join('')
+
+        liveAlert.innerHTML="";
+        liveAlert.append(wrapper)
+    }
     
-    window.location.href = '../search/index.html'
+    if(username != "") {
+        window.location.href = '../inicio/index.html'
+    }
+    else {
+        alert('Usuário inválido!', 'danger')
+    }
 }
 
 
