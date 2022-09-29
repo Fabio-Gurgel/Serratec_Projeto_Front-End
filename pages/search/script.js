@@ -1,4 +1,4 @@
-    var user = localStorage.getItem("user")
+    var user = localStorage.getItem("user");
 
     if(user != "") {
         document.getElementById("bem_vindo").innerHTML += `
@@ -29,7 +29,6 @@
                 </div>
                 `;
 
-                document.getElementById(`filme_container${i}`).style.backgroundImage = `url('${filmes.Search[i].Poster}')`;
                 document.getElementById(`filme_container${i}`).style.backgroundImage = `url('${filmes.Search[i].Poster}')`;
             
         }

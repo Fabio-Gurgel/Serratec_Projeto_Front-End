@@ -1,4 +1,4 @@
-document.getElementById("submit").onclick = async () => {
+document.getElementById("submit").onclick = () => {
     var username = document.getElementById("username").value;
 
     localStorage.setItem("user", username)
