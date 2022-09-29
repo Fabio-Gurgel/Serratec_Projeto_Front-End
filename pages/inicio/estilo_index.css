@@ -133,3 +133,39 @@ footer{
 #bem_vindo span{
     color: rgb(255, 217, 136);
 }
+
+
+@media (max-width:1200px) {
+    header{
+        height: 8%;
+    }
+    #logo_container{
+        min-width: 200px;
+        width: 200px;
+    }
+
+}
+@media (max-width:880px) {
+    header{
+        height: 10%;
+    }
+    #logo_container{
+        width: 200px;
+    }
+
+
+}
+@media (max-width:700px) {
+    header{
+        height: 20%;
+        flex-direction: column;
+    }
+    #logo_container{
+        width: 200px;
+    }
+    #botao-menu{
+        margin-bottom: 15px;
+    }
+
+
+}

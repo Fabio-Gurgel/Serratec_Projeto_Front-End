@@ -69,8 +69,11 @@ body {
     color: #fff;
     font-weight: bold;
     text-align: center;
+    transition: 0.5s;
 }
-
+#content > label:hover {
+    color: rgb(255, 217, 136);  
+}
 #content > input, textarea {
     width: 90%;
     height: 20px;
