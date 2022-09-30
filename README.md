@@ -1,7 +1,7 @@
 # FrontEnd Essencial
 ### Trabalho final da matéria:
-<img src="https://img.shields.io/badge/Versão-1.0.0-darkblue"/> <img src="https://img.shields.io/badge/Data%20de%20lançamento:-29_de_Setembro-green">
-<img src="https://img.shields.io/badge/Última_Modificação:-29_de_Setembro-red"/>
+<img src="https://img.shields.io/badge/Versão-1.0.1-darkblue"/> <img src="https://img.shields.io/badge/Data%20de%20lançamento:-29_de_Setembro-green">
+<img src="https://img.shields.io/badge/Última_Modificação:-30_de_Setembro-red"/>
 <br><br>
 
 <h4> Um simples site feito com HTML, CSS e JavaScript.</h4>
