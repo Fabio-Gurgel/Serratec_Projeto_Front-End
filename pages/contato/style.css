@@ -14,8 +14,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(236, 236, 236);
-    background-image: url(/imagens/background-popcorn.jpg);
+    background-image: url(../../imagens/background-popcorn.jpg);
     background-size: 90px, 90px;
     display: flex;
     flex-direction: column;
